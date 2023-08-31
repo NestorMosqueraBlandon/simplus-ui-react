@@ -1,27 +1,57 @@
-# React + TypeScript + Vite
+<a href="">
+  <h1 align="center">Simplus UI</h1>
+</a>
+<p align="center">
+  UI library of the open-source web tools
+</p>
+<p align="center">
+  <a href="#features"><strong>Features</strong></a> ·
+  <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
+  <a href="#running-locally"><strong>Running locally</strong></a> ·
+  <a href="#authors"><strong>Authors</strong></a>
+</p>
+<br/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- [React](https://react.dev/) library
+- [shadcn/ui](https://ui.shadcn.com)
+  - Styling with [Tailwind CSS](https://tailwindcss.com)
+  - [Radix UI](https://radix-ui.com) for headless component primitives
+  - Icons from [Phosphor Icons](https://phosphoricons.com)
+- History of the componentes with [storybook](https://storybook.js.org/)
+- Packager [Vite](https://vitejs.dev/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deploy Your Own
 
-## Expanding the ESLint configuration
+You can deploy your own version of the Next.js AI Chatbot to Vercel with one click:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+comming soon
 
-- Configure the top-level `parserOptions` property like this:
+[![Deploy with Vercel](https://vercel.com/button)]()
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Running locally
+
+### StoryBook
+
+```bash
+npm install
+npm run storybook
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Your StoryBook should now be running on [localhost:6006](http://localhost:6006/).
+
+### App
+
+```bash
+npm install
+npm run dev
+```
+
+Your app template should now be running on [localhost:5173](http://localhost:5173/).
+
+## Authors
+
+This library is created by
+
+- Jonnier Martinez ([@jonniermartinez](https://twitter.com/jonniermartinez))
