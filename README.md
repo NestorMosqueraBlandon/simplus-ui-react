@@ -52,6 +52,5 @@ Your app template should now be running on [localhost:5173](http://localhost:517
 
 ## Authors
 
-This library is created by
-
-- Jonnier Martinez ([@jonniermartinez](https://twitter.com/jonniermartinez))
+- jeeks ([@jonniermartinez](https://twitter.com/jonniermartinez))
+- Manuel Gil ([@jonniermartinez](https://twitter.com/jonniermartinez))
