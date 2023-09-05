@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/Button/button";
 
 // eslint-disable-next-line storybook/story-exports
 const meta: Meta<typeof Button> = {
@@ -18,10 +18,10 @@ export const Primary: Story = {
 };
 export const simplusPrimary: Story = {
   args: {
-    children: "See more Tools",
     variant: "simpluPrimary",
     size: "ss",
   },
+  render: (args) => <Button {...args}>See more Tools</Button>,
 };
 export const Outline: Story = {
   args: {
