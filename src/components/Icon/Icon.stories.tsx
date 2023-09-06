@@ -33,7 +33,6 @@ export const Outline: Story = {
     </Icon>
   ),
 };
-
 export const sizeLg: Story = {
   args: {
     size: "lg",
@@ -45,4 +44,12 @@ export const sizeLg: Story = {
       </svg>
     </Icon>
   ),
+};
+
+export const Example: Story = {
+  args: {
+    size: "lg",
+    variant: "outline",
+  },
+  render: (args) => <Icon {...args}></Icon>,
 };

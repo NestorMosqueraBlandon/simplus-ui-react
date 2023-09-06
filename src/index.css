@@ -57,3 +57,34 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: "Space Grotesk Light";
+  src: url("../public/static/SpaceGrotesk-Light.ttf");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk Regular";
+  src: url("../public/static/SpaceGrotesk-Regular.ttf");
+  font-weight: 00;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../public/static/SpaceGrotesk-Medium.ttf");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk semiBold";
+  src: url("../public/static/SpaceGrotesk-SemiBold.ttf");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk bold";
+  src: url("../public/static/SpaceGrotesk-Bold.ttf");
+  font-weight: 700;
+  font-display: swap;
+}
