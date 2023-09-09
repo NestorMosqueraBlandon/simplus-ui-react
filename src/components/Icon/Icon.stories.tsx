@@ -45,11 +45,3 @@ export const sizeLg: Story = {
     </Icon>
   ),
 };
-
-export const Example: Story = {
-  args: {
-    size: "lg",
-    variant: "outline",
-  },
-  render: (args) => <Icon {...args}></Icon>,
-};

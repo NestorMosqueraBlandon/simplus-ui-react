@@ -23,7 +23,7 @@ const iconVariants = cva(
       },
       size: {
         default: "w-[30px] h-[30px] p-1",
-        lg: "w-[52px]	h-[52px] p-1 fill-primary",
+        lg: "w-[52px]	h-[52px] p-1",
       },
     },
     defaultVariants: {

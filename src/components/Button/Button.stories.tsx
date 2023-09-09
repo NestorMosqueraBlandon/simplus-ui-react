@@ -16,7 +16,7 @@ export const Primary: Story = {
     children: "Go to Page",
   },
 };
-export const simplusPrimary: Story = {
+export const SimplusPrimary: Story = {
   args: {
     variant: "simpluPrimary",
     size: "ss",
