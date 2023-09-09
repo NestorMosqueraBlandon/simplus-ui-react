@@ -9,7 +9,11 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
+      groteskLight: ["Space Grotesk Light"],
+      groteskRegular: ["Space Grotesk Regular"],
       grotesk: ["Space Grotesk"],
+      groteskSemiBold: ["Space Grotesk semiBold"],
+      groteskBold: ["Space Grotesk bold"],
     },
     container: {
       center: true,

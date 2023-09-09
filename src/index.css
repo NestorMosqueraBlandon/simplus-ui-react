@@ -67,7 +67,7 @@
 @font-face {
   font-family: "Space Grotesk Regular";
   src: url("../public/static/SpaceGrotesk-Regular.ttf");
-  font-weight: 00;
+  font-weight: 400;
   font-display: swap;
 }
 @font-face {
