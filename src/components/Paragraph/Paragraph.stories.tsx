@@ -24,6 +24,12 @@ export const Outline: Story = {
   },
   render: (args) => <Paragraph {...args}>Team members</Paragraph>,
 };
+export const Medium: Story = {
+  args: {
+    size: "sm",
+  },
+  render: (args) => <Paragraph {...args}>Team members</Paragraph>,
+};
 export const OutlineSmall: Story = {
   args: {
     variant: "outline",

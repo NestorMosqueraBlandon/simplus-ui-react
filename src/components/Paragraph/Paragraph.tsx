@@ -9,6 +9,7 @@ const paragraphVariants = cva("font-grotesk", {
     },
     size: {
       xs: "text-xs",
+      sm: "text-sm",
       default: "text-base",
     },
   },
